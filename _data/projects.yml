@@ -1,12 +1,12 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# donutfinder.io
-- project: donutfinder.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+# Migration Samba4
+- project: Migration Samba 4
+  role: Architecte Infrastructure
+  duration: Juillet 2016 &mdash; Aout 2016
   # url: "#"
-  description: Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.
+  description: Migration des 7 contrôleurs de domaine Samba 3 vers Samba 4.
 
 #Springfield Donut Eater's User Group
 - project: Springfield Donut Eater's User Group

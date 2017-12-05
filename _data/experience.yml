@@ -1,19 +1,24 @@
 # Jobs
 # Ingénieur Avant-Vente / Architecte Infrastructure
 - company: alter way
-  position: Ingénieur Avant-Vente
+  position: Ingénieur Avant-Vente / Architecte Infrastructure
   duration: Nov, 2016 &mdash; Aujourd'hui
   summary: Je rédige les propositions technico-commerciale à l'attention de nos futurs client. Je design les infrastructure, en corrélation avec les cahiers des charges. J'accompagne les commerciaux en soutenance.	<ul class="resume-item-list"><li>Rédaction</li><li>Infrastructure</li><li>Conseil</li></ul>
 
 # Administrateur Systèmes
 - company: alter way
-  position: ASR
+  position: Administrateur Systèmes
   duration:  Nov, 2012 &mdash; Nov, 2016
   summary: Maintien en Condition Opérationnelle des infrastructures clientes. Rédaction de documentation techniques. Réalisation d'interventions sur site. Mission de consulting sur des sujets open source spécifiques.
 
+# Administrateur Systèmes
+- company: Ministère de la Défense
+  position: Administrateur Systèmes
+  duration: Nov 2006 &mdash; Nov, 2011
+  summary: Maintien en Condition Opérationnelle des infrastruce de la Région Alsace. Administration de l'Active Directory régional. Interventions sur site.
 
-# Front Desk Attendant
-- company: Simpson Lazer Tag
-  position: Front Desk Attendant
-  duration:   Jun, 1975  &mdash; May, 1978
-  summary: Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.
+# Technicien Informatique
+- company: Ministère de la Défense
+  position: Technicien Informatique
+  duration: Nov 2002 &mdash; Nov, 2006
+  summary: Cablage des baies de brassage réseaux. Installation des stations de travail. Réalisation des masters Windows. Dépannage utilisateur.

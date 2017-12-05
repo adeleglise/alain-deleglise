@@ -1,12 +1,24 @@
 # Skills
-# Donut design
-- skill: Donut design
-  description: Sprinkle art, icing design, eclair management, taste testing, donut/coffee pairing research
+# Rédaction
+- skill: Rédaction
+  description: Rédaction des proposition technico-commerciales d'avant-vente. Rédaction de documentations techniques et fonctionnelles.
 
 # Craft beer brewing
-- skill: Craft beer brewing
-  description: Hops inspection, brew testing, distribution management, bottle label design, festival and event management
+- skill: Conseil/Audit/Formation
+  description: Consulting, audit et tunning d'infrastructure. Déplacement en clientèle et rédaction des rapports d'audit.
 
 # Family leadership
-- skill: Family leadership
-  description: Bread winning, conflict resolution, couch inspection, TV longevity testing
+- skill: Architecture informatique
+  description: Design des architectures informatique selon les cahiers des charges. Rédaction des expressions de besoins.
+
+# Family leadership
+- skill: Administration Système Linux
+  description: Administration système linux niveau 3. Dépannage et audit des infrastructure.
+
+ # Family leadership
+- skill: Administration Système Windows
+  description: Administration système Windows niveau 2. Dépannage et audit des infrastructure. 
+
+# Family leadership
+- skill: Maintien en Condition de Sécurité
+  description: Mise en oeuvre et exploitation de SIEM. Edition de rapports de sécurité, mise en forme des données.
