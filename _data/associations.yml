@@ -1,6 +1,12 @@
 # Associations
 # comment out the urls if you do not wish to display them
 
+- organization: Résidence pour personnes agées Van Gogh
+  role: Formateur/Accompagnateur informatique
+  year: 2018 &mdash; Present
+  url: www.vgnqbst.ovh
+  summary: Formation et accompagnement des personnes agées de la résidence à l'utilisation de l'outil informatique.
+
 - organization: MJC de Croix
   role: Aide externe
   year: 2017 &mdash; Present
