@@ -1,9 +1,15 @@
 # Jobs
+# Ingénieur Systèmes
+- company: iCreo
+  position: Ingénieur Systèmes
+  duration: Fev, 2019 &mdash; Aujourd'hui
+  summary: Je suis en charge de l'infrastructure de Radiokinng. J'assure de le MCS et le MCO de l'ensemble des composants de l'infra. Je design et met en oeuvre des solutions techniques pour l'hébergement des services nécessaires au bon fonctionnement du produit.  <ul class="resume-item-list"><li>Infrastructure</li><li>Administration Systèmes</li><li>Infrastructure as Code</li></ul>
+
 # Ingénieur Avant-Vente / Architecte Infrastructure
 - company: alter way
   position: Ingénieur Avant-Vente / Architecte Infrastructure
-  duration: Nov, 2016 &mdash; Aujourd'hui
-  summary: Je rédige les propositions technico-commerciale à l'attention de nos futurs client. Je design les infrastructure, en corrélation avec les cahiers des charges. J'accompagne les commerciaux en soutenance.	<ul class="resume-item-list"><li>Rédaction</li><li>Infrastructure</li><li>Conseil</li></ul>
+  duration: Nov, 2016 &mdash; Fev, 2019
+  summary: Je rédige les propositions technico-commerciale à l'attention de nos futurs client. Je design les infrastructure, en corrélation avec les cahiers des charges. J'accompagne les commerciaux en soutenance.  <ul class="resume-item-list"><li>Rédaction</li><li>Infrastructure</li><li>Conseil</li></ul>
 
 # Administrateur Systèmes
 - company: alter way
