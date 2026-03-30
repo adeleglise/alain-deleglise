@@ -1,12 +1,12 @@
 # Projects
 - project: APIM Gravitee multi-cloud
   role: OPS Engineer
-  duration: 2023 &mdash; Présent
+  duration: 2023 - Présent
   description: Exploitation et MCO de l'APIM Gravitee chez Decathlon, gérant 12 000 req/s en production sur une infrastructure Kubernetes multi-cloud.
 
 - project: Migration infrastructure Obypay vers GCP
   role: SRE / DevOps Engineer
-  duration: 2022 &mdash; Présent
+  duration: 2022 - Présent
   description: Refonte complète de l'infrastructure. Migration vers Google Cloud Platform, mise en place de Kubernetes, pipelines GitLab CI/CD et stack d'observabilité.
 
 - project: Migration Kubernetes RadioKing

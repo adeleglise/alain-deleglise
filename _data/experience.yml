@@ -1,53 +1,53 @@
 # Decathlon
 - company: Decathlon
   position: OPS Engineer / Platform Engineer
-  duration: Nov 2023 &mdash; Présent
+  duration: Nov 2023 - Présent
   summary: MCO de l'APIM Gravitee (12 000 req/s en production). MCO clusters Kubernetes multi-cloud (AWS, GCP, Azure, Alibaba Cloud). Debug composants techniques complexes et création d'outils de monitoring custom. Design et implémentation de features d'infrastructure (Flagger, canary deployments).
 
 # Obypay
 - company: Obypay
   position: SRE / DevOps Engineer
-  duration: Juin 2022 &mdash; Présent
+  duration: Juin 2022 - Présent
   summary: Refonte complète de l'infrastructure. Migration vers Google Cloud Platform. Mise en place de Kubernetes et pipelines GitLab CI/CD. Implémentation de la stack d'observabilité (Prometheus, Grafana, Loki).
 
 # WhatsonWeb
 - company: WhatsonWeb
   position: Consultant Infra / DevOps
-  duration: Juil 2022 &mdash; Nov 2023
+  duration: Juil 2022 - Nov 2023
   summary: Consulting infrastructure et DevOps pour clients variés. Migration vers GCP et mise en place de GKE. Implémentation GitOps avec ArgoCD. Infrastructure as Code avec Terraform. Stack observabilité Prometheus / Grafana.
 
 # Expertise By Me
 - company: Expertise By Me
   position: Fondateur / Consultant SRE & DevOps
-  duration: Mai 2022 &mdash; Présent
+  duration: Mai 2022 - Présent
   summary: Cabinet d'expertise en infrastructure cloud, SRE et DevOps. Conseil, migration cloud, Kubernetes multi-cloud, Infrastructure as Code et observabilité. Accompagnement d'entreprises de toutes tailles, des startups aux grands groupes.
 
 # RadioKing (iCréo)
 - company: RadioKing (iCréo)
   position: Ingénieur Systèmes
-  duration: Fév 2019 &mdash; Jan 2022
+  duration: Fév 2019 - Jan 2022
   summary: "MCO et MCS de l'ensemble des composants d'infrastructure. Design et mise en oeuvre de nouvelles infrastructures techniques. Industrialisation des déploiements (Terraform, Puppet, Ansible, GitOps). Stack Prometheus/Grafana. Cluster ElasticSearch/Logstash. Mise en oeuvre de Kubernetes et du GitOps. Rédaction des documentations techniques (DAT, PRA/PCA, PAS, PAQ)."
 
 # Alter Way - Avant-Vente
 - company: Alter Way
   position: Ingénieur Avant-Vente / Architecte Infrastructure
-  duration: Nov 2016 &mdash; Fév 2019
+  duration: Nov 2016 - Fév 2019
   summary: Rédaction des propositions technico-commerciales. Design des infrastructures en corrélation avec les cahiers des charges. Accompagnement des commerciaux en soutenance. Conseil et expertise sur des briques open-source middleware.
 
 # Alter Way - Admin Sys
 - company: Alter Way
   position: Administrateur Systèmes
-  duration: Nov 2012 &mdash; Nov 2016
+  duration: Nov 2012 - Nov 2016
   summary: Maintien en Condition Opérationnelle des infrastructures clientes. Rédaction de documentations techniques. Consulting sur site et expertise open-source. Veille technologique et stratégique.
 
 # Ministère de la Défense - Admin Sys
 - company: Ministère de la Défense
   position: Administrateur Systèmes
-  duration: Nov 2006 &mdash; Nov 2011
+  duration: Nov 2006 - Nov 2011
   summary: Maintien en Condition Opérationnelle des infrastructures. Administration de l'Active Directory régional. Gestion des interventions sur site. Rédaction de documentation et schématisation des topologies réseaux.
 
 # Ministère de la Défense - Technicien
 - company: Ministère de la Défense
   position: Technicien Informatique
-  duration: Nov 2002 &mdash; Nov 2006
+  duration: Nov 2002 - Nov 2006
   summary: Câblage des baies de brassage réseaux. Installation des stations de travail. Réalisation des masters Windows. Dépannage utilisateur.
