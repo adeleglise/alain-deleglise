@@ -1,17 +1,15 @@
 // Resume styles
 // ---------------------------------------/
 
-// util
-
 .section-header {
   @include section_border;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
 
   h2 {
     @include sans;
     font-weight: 700;
-    font-size: 1.25rem;
-    letter-spacing: .02rem;
+    font-size: 0.85rem;
+    letter-spacing: .12rem;
     text-transform: uppercase;
     color: $accent-dark;
     margin: 0;
@@ -21,7 +19,8 @@
 // page header styles
 
 .page-header {
-  padding: 2.5rem 0 1.5rem;
+  padding: 3rem 0 2rem;
+  text-align: center;
 
   .avatar {
     width: 95px;
@@ -34,12 +33,12 @@
 
   .header-name {
     @include sans;
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     font-weight: 800;
     text-align: center;
-    letter-spacing: -.05rem;
+    letter-spacing: -.06rem;
     line-height: 1.1;
-    margin: 1rem 0 0.5rem;
+    margin: 0 0 0.25rem;
     color: $black;
   }
 
@@ -47,7 +46,8 @@
     @include sans;
     text-align: center;
     color: $muted;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
   }
   .header-contact-info p a {
     color: $accent-dark;
@@ -56,16 +56,17 @@
   }
 
   .title-bar {
-    @include section_border;
-    padding: .6rem 0;
+    border-top: none;
+    border-bottom: 1px solid $border;
+    padding: .5rem 0;
     @include clearfix;
 
     .header-title {
       @include sans;
       font-weight: 400;
-      font-size: 1.15rem;
+      font-size: 1.1rem;
       line-height: 1.5rem;
-      letter-spacing: 0;
+      letter-spacing: .01rem;
       text-align: center;
       margin: 0 0 .5rem;
       color: $muted;
@@ -78,9 +79,15 @@
   }
 
   .executive-summary {
-    color: $black;
-    line-height: 1.7;
-    @include media_larger_than_mobile { font-size: 1.05rem; }
+    color: #374151;
+    line-height: 1.75;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 1.25rem;
+
+    @include media_larger_than_mobile {
+      font-size: 1.05rem;
+    }
   }
 }
 
@@ -89,7 +96,7 @@
   padding: 0;
   list-style: none;
   position: relative;
-  top: 4px;
+  top: 2px;
   text-align: center;
   border-top: 1px solid $border;
   padding-top: .5rem;
@@ -102,20 +109,25 @@
 
   .icon-link-item {
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 8px;
   }
 
   .icon-link {
     display: inline-block;
+    @include transition(all .15s ease);
 
     &:hover .icon path {
       fill: $accent;
-      @include transition(all .2s ease);
+    }
+
+    .icon path {
+      fill: $muted;
+      @include transition(fill .15s ease);
     }
   }
 
   .icon {
-    height: 28px;
+    height: 24px;
   }
 }
 
@@ -127,12 +139,12 @@
   display: block;
   margin: 1.5rem auto;
   width: 220px;
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 600;
   @include sans;
   color: #fff;
-  line-height: 50px;
-  @include transition(all .2s ease);
+  line-height: 48px;
+  @include transition(all .15s ease);
 
   &:hover {
     background-color: $accent-dark;
@@ -144,6 +156,7 @@
     background-color: $bg-subtle;
     color: $muted;
     font-weight: 400;
+    font-size: 0.85rem;
     &:hover { background-color: #eef2f7; }
   }
 }
@@ -154,9 +167,9 @@
   margin: 0 0 2.5rem;
 
   .resume-item {
-    margin-bottom: 1.75rem;
-    padding-bottom: 1.75rem;
-    border-bottom: 1px solid $border;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #f1f5f9;
 
     &:last-child {
       border-bottom: none;
@@ -166,21 +179,24 @@
 
   .resume-item-title {
     @include sans_bold;
-    margin: 0 0 .5rem;
-    font-size: 1.2rem;
-    letter-spacing: -.02rem;
+    margin: 0 0 .35rem;
+    font-size: 1.1rem;
+    letter-spacing: -.01rem;
     line-height: 1.3;
     color: $black;
   }
 
   .resume-item-details {
-    font-size: 0.95rem;
+    font-size: 0.88rem;
     margin: 0 0 .5rem;
-    line-height: 1.3;
+    line-height: 1.4;
     color: $muted;
+    font-weight: 500;
 
     &.award-title {
-      font-size: 0.9rem;
+      font-size: 0.85rem;
+      color: $accent-dark;
+      font-weight: 600;
     }
   }
 
@@ -192,6 +208,7 @@
       color: $accent-dark;
       text-decoration: none;
       border-bottom: 1px solid transparent;
+      @include transition(border-color .15s ease);
 
       &:hover {
         border-bottom-color: $accent;
@@ -202,7 +219,17 @@
   .resume-item-copy {
     margin: .5rem 0 0;
     line-height: 1.65;
-    color: #374151;
+    color: #4b5563;
+    font-size: 0.92rem;
+  }
+
+  .resume-item-list {
+    padding-left: 1.25rem;
+    li {
+      margin-bottom: 0.25rem;
+      color: #4b5563;
+      font-size: 0.92rem;
+    }
   }
 }
 
@@ -223,6 +250,7 @@
       font-weight: 600;
       color: $accent-dark;
       text-decoration: none;
+      &:hover { text-decoration: underline; }
     }
   }
 }
@@ -232,8 +260,9 @@
 @media print {
   .no-print { display: none !important }
   .print-only { display: block !important }
-  body { font-size: 12px; line-height: 1rem; }
-  .page-header { padding: 1rem 0 .2rem;
+  body { font-size: 12px; line-height: 1.4; }
+  .page-header {
+    padding: 1rem 0 .5rem;
     .header-name {
       @include sans_bold;
       font-size: 2rem;
@@ -242,24 +271,23 @@
   }
   .section-header {
     @include section_border_thin;
-    margin-bottom: 1rem;
-    h2 { font-size: 1.2rem; line-height: 1.5rem; }
+    margin-bottom: .75rem;
+    h2 { font-size: 0.9rem; line-height: 1.2rem; }
   }
   .content-section {
     margin: 0 0 1rem;
     .resume-item {
-      margin-bottom: 1rem;
-      padding-bottom: 1rem;
+      margin-bottom: .75rem;
+      padding-bottom: .75rem;
     }
     .resume-item-title {
-      font-size: 16px;
-      line-height: .7em;
+      font-size: 14px;
+      line-height: 1.2;
     }
-
     .resume-item-details {
-      font-size: 12px;
+      font-size: 11px;
       margin: 0;
-      line-height: .7em;
+      line-height: 1.2;
       font-style: italic;
     }
   }

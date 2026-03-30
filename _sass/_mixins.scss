@@ -2,27 +2,18 @@
 // ---------------------------------------/
 
 @mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-  -moz-border-radius: $radius;
   border-radius: $radius;
 }
 
 @mixin transition($value) {
-  -webkit-transition: $value;
-  -moz-transition: $value;
   transition: $value;
 }
-
-// Clearfix
-//
-// Clears floats via mixin (avoid using as a class).
 
 @mixin clearfix {
   &:before {
     display: table;
     content: "";
   }
-
   &:after {
     display: table;
     clear: both;
@@ -30,7 +21,7 @@
   }
 }
 
-// media querie tools
+// media queries
 
 @mixin media_max($screen_width) {
   @media (max-width: $screen_width) { @content; }
@@ -51,7 +42,7 @@
 // type utilities
 
 @mixin sans {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 @mixin sans_light {
@@ -66,7 +57,7 @@
 
 @mixin sans_bold {
   @include sans;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 @mixin sans_extrabold {
@@ -75,7 +66,7 @@
 }
 
 @mixin serif {
-  font-family: "Lora", "Minion Pro", Palatino, Georgia, serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 @mixin serif_regular {
@@ -85,19 +76,19 @@
 
 @mixin serif_bold {
   @include serif;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 // layout
 
 @mixin section_border {
-  border-top: 4px solid #c7c7c7;
-  border-bottom: 2px solid #c7c7c7;
-  padding: .2rem 0 .4rem;
+  border-top: none;
+  border-bottom: 2px solid $accent;
+  padding: 0 0 .4rem;
 }
 
 @mixin section_border_thin {
-  border-top: 1px solid #c7c7c7;
-  border-bottom: 1px solid #c7c7c7;
-  padding: .2rem 0 .2rem;
+  border-top: none;
+  border-bottom: 1px solid $border;
+  padding: 0 0 .2rem;
 }

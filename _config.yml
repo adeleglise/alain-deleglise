@@ -17,7 +17,7 @@ resume_contact_address:         "Lille, France"
 resume_header_contact_info: "Lille, France | alain@expertiseby.me"
 resume_header_intro: "<p>Ingénieur Systèmes Linux avec plus de 15 ans d'expérience dans la conception, la migration et l'exploitation d'infrastructures critiques. Fondateur d'<strong>Expertise By Me</strong>, cabinet d'expertise en infrastructure cloud, SRE et DevOps. Pragmatique et passionné, je m'attache à la chose bien faite et ne laisse rien au hasard. Toujours force de proposition en termes de recommandations techniques.</p>"
 
-resume_looking_for_work:        "yes"
+# resume_looking_for_work:        "no"
 
 # Decide which sections to use
 resume_section_experience:      true
