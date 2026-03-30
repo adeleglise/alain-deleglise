@@ -1,24 +1,21 @@
 # Skills
-# Rédaction
-- skill: Rédaction
-  description: Rédaction des proposition technico-commerciales d'avant-vente. Rédaction de documentations techniques et fonctionnelles.
+- skill: Cloud & Multi-Cloud
+  description: GCP (certifié Professional Cloud Architect), AWS, Azure, Alibaba Cloud. Migration, conception d'architecture et exploitation d'infrastructures cloud.
 
-# Craft beer brewing
-- skill: Conseil/Audit/Formation
-  description: Consulting, audit et tunning d'infrastructure. Déplacement en clientèle et rédaction des rapports d'audit.
+- skill: Orchestration & Containers
+  description: Kubernetes, Docker, Helm, Flagger, Proxmox. Déploiement, MCO et optimisation de clusters multi-cloud. Canary deployments.
 
-# Family leadership
-- skill: Architecture informatique
-  description: Design des architectures informatique selon les cahiers des charges. Rédaction des expressions de besoins.
+- skill: Infrastructure as Code
+  description: Terraform, ArgoCD, FluxCD, GitOps. Automatisation complète des environnements avec une approche déclarative et versionnée.
 
-# Family leadership
-- skill: Administration Système Linux
-  description: Administration système linux niveau 3. Dépannage et audit des infrastructure.
+- skill: CI/CD
+  description: GitLab CI, GitHub Actions, Drone. Conception et exploitation de pipelines de déploiement continu.
 
- # Family leadership
-- skill: Administration Système Windows
-  description: Administration système Windows niveau 2. Dépannage et audit des infrastructure. 
+- skill: Observabilité & Monitoring
+  description: Prometheus, Grafana, Loki, AlertManager. Conception de dashboards et alerting sur mesure. Monitoring custom et SLO/SLI.
 
-# Family leadership
-- skill: Maintien en Condition de Sécurité
-  description: Mise en oeuvre et exploitation de SIEM. Edition de rapports de sécurité, mise en forme des données.
+- skill: API Management
+  description: Gravitee APIM. Déploiement et exploitation en production, gestion de fort trafic (12 000 req/s), haute disponibilité.
+
+- skill: Systèmes & Sécurité
+  description: Administration système Linux niveau expert. IDS/IPS, firewalling, SIEM, OpenSCAP, Harbor. Rédaction technique et avant-vente.

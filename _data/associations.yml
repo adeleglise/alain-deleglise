@@ -1,21 +1,5 @@
 # Associations
-# comment out the urls if you do not wish to display them
-
-- organization: Résidence pour personnes agées Van Gogh
-  role: Formateur/Accompagnateur informatique
-  year: 2018 &mdash; Ajourd'hui
-  url: www.vgnqbst.ovh
-  summary: Formation et accompagnement des personnes agées de la résidence à l'utilisation de l'outil informatique.
-
-- organization: MJC de Croix
-  role: Aide externe
-  year: 2017 &mdash; Ajourd'hui
-  url: http://www.mjccscroix.fr
-  summary: Participation au projet de refonte de l'infrastructure du site web de la Maison de la Jeunesse et de la Culture de Croix 59170.
-
-
-- organization: Conseil Citoyen de Croix
-  role: Membre
-  year: 2016 &mdash; 2017
-  url: http://stpierrecitoyen.fr
-  summary: Membre de l'association.
+- organization: Résidence pour personnes âgées Van Gogh
+  role: Formateur / Accompagnateur informatique
+  year: 2018 &mdash; 2019
+  summary: Formation et accompagnement des personnes âgées à l'utilisation de l'outil informatique. Croix (59170).

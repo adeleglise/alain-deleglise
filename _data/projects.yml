@@ -1,23 +1,20 @@
 # Projects
-# uncomment the urls if you wish to display them, and add your own URL
+- project: APIM Gravitee multi-cloud
+  role: OPS Engineer
+  duration: 2023 &mdash; Présent
+  description: Exploitation et MCO de l'APIM Gravitee chez Decathlon, gérant 12 000 req/s en production sur une infrastructure Kubernetes multi-cloud.
 
-# Migration Kubernetes
-- project: Migration de l'infrastructure de Radioking
-  role: Architecte Infrastructure
-  duration: Eté 2019
-  # url: "#"
-  description: Migration des API et des Radios dans Kubernetes.
+- project: Migration infrastructure Obypay vers GCP
+  role: SRE / DevOps Engineer
+  duration: 2022 &mdash; Présent
+  description: Refonte complète de l'infrastructure. Migration vers Google Cloud Platform, mise en place de Kubernetes, pipelines GitLab CI/CD et stack d'observabilité.
 
-# Porte Avion Charles de Gaulle
-- project: Migration des serveurs sur le Porte Avions Charles de Gaulle
+- project: Migration Kubernetes RadioKing
   role: Architecte Infrastructure
-  duration: Juin 2017
-  # url: "#"
+  duration: 2019
+  description: Migration des API et des services dans Kubernetes. Mise en oeuvre du GitOps pour l'orchestration des applicatifs.
+
+- project: Migration serveurs Porte-Avions Charles de Gaulle
+  role: Architecte Infrastructure
+  duration: 2017
   description: Migration des serveurs vers la nouvelle solution. Puppet, Samba, Bind, Postfix.
-
-# Migration Samba4
-- project: Migration Samba 4
-  role: Architecte Infrastructure
-  duration: Juillet 2016 &mdash; Aout 2016
-  # url: "#"
-  description: Migration des 7 contrôleurs de domaine Samba 3 vers Samba 4.
