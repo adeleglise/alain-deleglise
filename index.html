@@ -4,19 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alain Deléglise - Consultant SRE, DevOps & Infrastructure Cloud</title>
-    <meta name="description" content="Alain Deléglise, consultant SRE, DevOps et infrastructure cloud. Fondateur d'Expertise By Me. Plus de 15 ans d'expérience. Basé à Lille, France.">
+    <meta name="description" content="Alain Deléglise, consultant SRE, DevOps et infrastructure cloud basé à Lille. Fondateur d'Expertise By Me. Plus de 15 ans d'expérience en Kubernetes multi-cloud, Terraform, observabilité et migration cloud.">
     <meta name="author" content="Alain Deléglise">
+    <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://alain.deleglise.net/">
     <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+
+    <!-- Langue et localisation -->
+    <link rel="alternate" hreflang="fr" href="https://alain.deleglise.net/">
+    <meta name="geo.region" content="FR-HDF">
+    <meta name="geo.placename" content="Lille">
+    <meta name="geo.position" content="50.6292;3.0573">
+    <meta name="ICBM" content="50.6292, 3.0573">
+    <meta name="theme-color" content="#1c1917">
 
     <!-- Open Graph -->
     <meta property="og:title" content="Alain Deléglise - Consultant SRE, DevOps & Infrastructure Cloud">
-    <meta property="og:description" content="Plus de 15 ans d'expérience en infrastructures critiques. Kubernetes multi-cloud, IaC, observabilité.">
+    <meta property="og:description" content="Plus de 15 ans d'expérience en infrastructures critiques. Kubernetes multi-cloud, IaC, observabilité. Fondateur d'Expertise By Me, basé à Lille.">
     <meta property="og:type" content="profile">
     <meta property="og:locale" content="fr_FR">
     <meta property="og:url" content="https://alain.deleglise.net/">
+    <meta property="og:site_name" content="Alain Deléglise - CV en ligne">
+    <meta property="og:image" content="https://alain.deleglise.net/images/avatar.jpg">
+    <meta property="og:image:alt" content="Photo de profil d'Alain Deléglise, consultant SRE et DevOps">
     <meta property="profile:first_name" content="Alain">
     <meta property="profile:last_name" content="Deléglise">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Alain Deléglise - Consultant SRE, DevOps & Infrastructure Cloud">
+    <meta name="twitter:description" content="Plus de 15 ans d'expérience en infrastructures critiques. Kubernetes multi-cloud, IaC, observabilité.">
+    <meta name="twitter:image" content="https://alain.deleglise.net/images/avatar.jpg">
 
     <!-- Schema.org Person -->
     <script type="application/ld+json">
@@ -24,15 +43,30 @@
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Alain Deléglise",
+        "givenName": "Alain",
+        "familyName": "Deléglise",
         "jobTitle": "Consultant SRE / DevOps & Infrastructure Cloud",
-        "description": "Ingénieur Systèmes Linux avec plus de 15 ans d'expérience. Fondateur d'Expertise By Me.",
+        "description": "Ingénieur Systèmes Linux avec plus de 15 ans d'expérience en Kubernetes multi-cloud, Terraform, observabilité et migration cloud. Fondateur d'Expertise By Me, cabinet d'expertise en infrastructure cloud basé à Lille.",
         "url": "https://alain.deleglise.net",
+        "image": "https://alain.deleglise.net/images/avatar.jpg",
         "email": "alain@expertiseby.me",
+        "nationality": "FR",
+        "knowsLanguage": ["fr", "en"],
         "address": {
             "@type": "PostalAddress",
             "addressLocality": "Lille",
             "addressRegion": "Hauts-de-France",
+            "postalCode": "59000",
             "addressCountry": "FR"
+        },
+        "homeLocation": {
+            "@type": "Place",
+            "name": "Lille, Hauts-de-France",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 50.6292,
+                "longitude": 3.0573
+            }
         },
         "alumniOf": {
             "@type": "EducationalOrganization",
@@ -41,14 +75,41 @@
         "worksFor": {
             "@type": "Organization",
             "name": "Expertise By Me",
+            "url": "https://www.expertiseby.me",
+            "description": "Cabinet d'expertise en infrastructure cloud, SRE et DevOps"
+        },
+        "founder": {
+            "@type": "Organization",
+            "name": "Expertise By Me",
             "url": "https://www.expertiseby.me"
         },
-        "hasCredential": {
-            "@type": "EducationalOccupationalCredential",
-            "name": "GCP Professional Cloud Architect",
-            "credentialCategory": "certification"
+        "hasCredential": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "GCP Professional Cloud Architect",
+                "credentialCategory": "certification",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Google Cloud"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "LPI1",
+                "credentialCategory": "certification",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Linux Professional Institute"
+                }
+            }
+        ],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Consultant SRE / DevOps",
+            "occupationalCategory": "15-1244.00",
+            "skills": "Kubernetes, Docker, Terraform, ArgoCD, Prometheus, Grafana, GCP, AWS, Azure, GitLab CI, Linux, Gravitee APIM"
         },
-        "knowsAbout": ["Kubernetes", "Docker", "GCP", "AWS", "Azure", "Terraform", "ArgoCD", "Prometheus", "Grafana", "GitLab CI", "Linux", "Gravitee APIM", "SRE", "DevOps"],
+        "knowsAbout": ["Kubernetes", "Docker", "GCP", "AWS", "Azure", "Alibaba Cloud", "Terraform", "ArgoCD", "FluxCD", "Prometheus", "Grafana", "Loki", "GitLab CI", "GitHub Actions", "Linux", "Gravitee APIM", "Helm", "Flagger", "SRE", "DevOps", "Infrastructure as Code", "Observabilité", "Migration cloud"],
         "sameAs": [
             "https://www.linkedin.com/in/alain-deleglise",
             "https://github.com/adeleglise",
@@ -242,6 +303,23 @@
             margin-top: 0.15rem;
         }
 
+        /* ---- SKIP LINK ---- */
+        .skip-link:focus {
+            position: fixed !important;
+            left: 1rem !important;
+            top: 1rem !important;
+            width: auto !important;
+            height: auto !important;
+            overflow: visible !important;
+            padding: 0.5rem 1rem;
+            background: var(--ink);
+            color: var(--paper);
+            font-size: 0.85rem;
+            border-radius: 4px;
+            z-index: 1000;
+            text-decoration: none;
+        }
+
         /* ---- PRINT BUTTON ---- */
         .print-btn {
             position: fixed;
@@ -330,13 +408,14 @@
     </style>
 </head>
 <body>
+    <a href="#contenu" class="skip-link" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;z-index:999;">Aller au contenu principal</a>
     <div class="page">
 
-        <header>
+        <header role="banner">
             <h1 class="name">Alain Deléglise</h1>
             <p class="title">Consultant SRE / DevOps & Infrastructure Cloud</p>
             <p class="intro">
-                Ingénieur Systèmes Linux avec plus de quinze ans d'expérience dans la conception, la migration et l'exploitation d'infrastructures critiques. Fondateur d'<strong>Expertise By Me</strong>. Pragmatique et passionné, je m'attache à la chose bien faite et ne laisse rien au hasard. Toujours force de proposition en termes de recommandations techniques.
+                Ingénieur Systèmes Linux avec plus de quinze ans d'expérience dans la conception, la migration et l'exploitation d'infrastructures critiques. Fondateur d'<a href="https://www.expertiseby.me" title="Expertise By Me - Cabinet d'expertise en infrastructure cloud, SRE et DevOps"><strong>Expertise By Me</strong></a>. Pragmatique et passionné, je m'attache à la chose bien faite et ne laisse rien au hasard. Toujours force de proposition en termes de recommandations techniques.
             </p>
             <div class="contact-row">
                 <span class="print-only">06 83 68 90 86</span>
@@ -348,8 +427,10 @@
             </div>
         </header>
 
+        <main id="contenu">
+
         <!-- Expérience -->
-        <section>
+        <section aria-label="Expérience professionnelle">
             <h2>Expérience</h2>
 
             <div class="entry">
@@ -376,8 +457,8 @@
             <div class="entry">
                 <div class="entry-role">Fondateur / Consultant SRE & DevOps</div>
                 <div class="entry-date">Mai 2022 - Présent</div>
-                <div class="entry-company">Expertise By Me</div>
-                <p class="entry-summary">Cabinet d'expertise en infrastructure cloud, SRE et DevOps. Conseil, migration cloud, Kubernetes multi-cloud, Infrastructure as Code et observabilité. Accompagnement d'entreprises de toutes tailles.</p>
+                <div class="entry-company"><a href="https://www.expertiseby.me" title="Expertise By Me - Consultant DevOps et SRE à Lille">Expertise By Me</a></div>
+                <p class="entry-summary">Cabinet d'expertise en infrastructure cloud, SRE et DevOps. Conseil, migration cloud, Kubernetes multi-cloud, Infrastructure as Code et observabilité. <a href="https://www.expertiseby.me" title="Découvrir les services d'Expertise By Me">Accompagnement d'entreprises de toutes tailles</a>.</p>
             </div>
 
             <div class="entry">
@@ -409,7 +490,7 @@
         </section>
 
         <!-- Compétences -->
-        <section>
+        <section aria-label="Compétences techniques">
             <h2>Compétences</h2>
             <div class="skills-row">
                 <div class="skills-label">Cloud & Multi-Cloud</div>
@@ -442,7 +523,7 @@
         </section>
 
         <!-- Projets notables -->
-        <section class="print-hide">
+        <section class="print-hide" aria-label="Projets notables">
             <h2>Projets notables</h2>
             <div class="project">
                 <div class="project-name">APIM Gravitee multi-cloud chez Decathlon</div>
@@ -467,7 +548,7 @@
         </section>
 
         <!-- Certifications & Formation -->
-        <section>
+        <section aria-label="Certifications et formation">
             <h2>Certifications & Formation</h2>
             <div class="cert-line">
                 <span class="cert-name">GCP Professional Cloud Architect</span>
@@ -488,7 +569,7 @@
         </section>
 
         <!-- Bénévolat -->
-        <section class="print-hide">
+        <section class="print-hide" aria-label="Engagement bénévole">
             <h2>Engagement</h2>
             <div class="entry">
                 <div class="entry-role">Formateur informatique bénévole</div>
@@ -498,8 +579,10 @@
             </div>
         </section>
 
-        <footer>
-            <p>Alain Deléglise, 2026 | <a href="https://www.expertiseby.me">expertiseby.me</a></p>
+        </main>
+
+        <footer role="contentinfo">
+            <p>Alain Deléglise, 2026 | <a href="https://www.expertiseby.me" title="Expertise By Me - Cabinet d'expertise SRE et DevOps">expertiseby.me</a></p>
         </footer>
 
         <button class="print-btn" onclick="window.print()" title="Exporter en PDF" aria-label="Exporter en PDF">
