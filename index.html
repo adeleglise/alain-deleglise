@@ -291,6 +291,9 @@
             header { padding: 3rem 0 2rem; }
         }
 
+        /* ---- PRINT VISIBILITY ---- */
+        .print-only { display: none; }
+
         /* ---- PRINT ---- */
         @media print {
             :root {
@@ -298,30 +301,28 @@
                 --rule: #ccc;
                 --rule-light: #ddd;
             }
-            body { font-size: 10px; line-height: 1.45; }
+            body { font-size: 9px; line-height: 1.35; }
             .page { max-width: 100%; padding: 0; }
-            header { padding: 0.5rem 0 0.75rem; }
-            .name { font-size: 1.6rem; margin-bottom: 0.1rem; }
-            .title { font-size: 0.85rem; margin-bottom: 0.5rem; }
-            .intro { font-size: 0.82rem; line-height: 1.5; }
-            .contact-row { margin-top: 0.5rem; font-size: 0.75rem; }
-            section { padding: 0.6rem 0; }
-            h2 { font-size: 1rem; margin-bottom: 0.6rem; }
-            .entry { margin-bottom: 0.6rem; }
-            .entry + .entry { padding-top: 0.6rem; }
-            .entry-role { font-size: 0.82rem; }
-            .entry-company { font-size: 0.75rem; }
-            .entry-date { font-size: 0.7rem; }
-            .entry-summary { font-size: 0.78rem; line-height: 1.45; margin-top: 0.15rem; }
-            .skills-row { margin-bottom: 0.35rem; }
-            .skills-label { font-size: 0.68rem; margin-bottom: 0.1rem; }
-            .skills-list { font-size: 0.78rem; }
-            .project { margin-bottom: 0.5rem; }
-            .project-name { font-size: 0.8rem; }
-            .project-meta { font-size: 0.7rem; }
-            .project-desc { font-size: 0.75rem; }
-            .cert-line { font-size: 0.78rem; padding: 0.2rem 0; }
-            .cert-org { font-size: 0.72rem; }
+            header { padding: 0.3rem 0 0.5rem; text-align: center; border-bottom-width: 1px; }
+            .name { font-size: 1.4rem; margin-bottom: 0; }
+            .title { font-size: 0.8rem; margin-bottom: 0.3rem; }
+            .intro { font-size: 0.75rem; line-height: 1.4; max-width: none; text-align: center; }
+            .contact-row { margin-top: 0.35rem; font-size: 0.7rem; justify-content: center; gap: 0.3rem 0.75rem; }
+            section { padding: 0.4rem 0; }
+            h2 { font-size: 0.85rem; margin-bottom: 0.4rem; }
+            .entry { margin-bottom: 0.35rem; }
+            .entry + .entry { padding-top: 0.35rem; }
+            .entry-role { font-size: 0.78rem; }
+            .entry-company { font-size: 0.7rem; }
+            .entry-date { font-size: 0.65rem; }
+            .entry-summary { font-size: 0.7rem; line-height: 1.35; margin-top: 0.1rem; }
+            .skills-row { margin-bottom: 0.2rem; }
+            .skills-label { font-size: 0.62rem; margin-bottom: 0; }
+            .skills-list { font-size: 0.7rem; }
+            .cert-line { font-size: 0.7rem; padding: 0.15rem 0; }
+            .cert-org { font-size: 0.65rem; }
+            .print-only { display: inline; }
+            .print-hide { display: none; }
             footer, .print-btn { display: none; }
         }
     </style>
@@ -336,6 +337,7 @@
                 Ingénieur Systèmes Linux avec plus de quinze ans d'expérience dans la conception, la migration et l'exploitation d'infrastructures critiques. Fondateur d'<strong>Expertise By Me</strong>. Pragmatique et passionné, je m'attache à la chose bien faite et ne laisse rien au hasard. Toujours force de proposition en termes de recommandations techniques.
             </p>
             <div class="contact-row">
+                <span class="print-only">06 83 68 90 86</span>
                 <a href="mailto:alain@expertiseby.me">alain@expertiseby.me</a>
                 <a href="https://www.linkedin.com/in/alain-deleglise" target="_blank" rel="noopener">LinkedIn</a>
                 <a href="https://www.expertiseby.me" target="_blank" rel="noopener">expertiseby.me</a>
@@ -376,21 +378,21 @@
                 <p class="entry-summary">Cabinet d'expertise en infrastructure cloud, SRE et DevOps. Conseil, migration cloud, Kubernetes multi-cloud, Infrastructure as Code et observabilité. Accompagnement d'entreprises de toutes tailles.</p>
             </div>
 
-            <div class="entry">
+            <div class="entry print-hide">
                 <div class="entry-role">Ingénieur Systèmes</div>
                 <div class="entry-date">Fév 2019 - Jan 2022</div>
                 <div class="entry-company">RadioKing (iCréo)</div>
                 <p class="entry-summary">MCO et MCS de l'infrastructure. Industrialisation des déploiements (Terraform, Puppet, Ansible, GitOps). Stack Prometheus/Grafana. Cluster ElasticSearch/Logstash. Mise en oeuvre de Kubernetes. Rédaction des documentations techniques (DAT, PRA/PCA).</p>
             </div>
 
-            <div class="entry">
+            <div class="entry print-hide">
                 <div class="entry-role">Architecte Infrastructure / Ingénieur Avant-Vente</div>
                 <div class="entry-date">Nov 2012 - Fév 2019</div>
                 <div class="entry-company">Alter Way</div>
                 <p class="entry-summary">Rédaction des propositions technico-commerciales. Design d'infrastructures. Consulting et expertise open-source middleware. Administration système et MCO/MCS. Veille technologique.</p>
             </div>
 
-            <div class="entry">
+            <div class="entry print-hide">
                 <div class="entry-role">Administrateur Systèmes / Technicien Informatique</div>
                 <div class="entry-date">Nov 2002 - Nov 2011</div>
                 <div class="entry-company">Ministère de la Défense</div>
@@ -432,7 +434,7 @@
         </section>
 
         <!-- Projets notables -->
-        <section>
+        <section class="print-hide">
             <h2>Projets notables</h2>
             <div class="project">
                 <div class="project-name">APIM Gravitee multi-cloud chez Decathlon</div>
@@ -478,7 +480,7 @@
         </section>
 
         <!-- Bénévolat -->
-        <section>
+        <section class="print-hide">
             <h2>Engagement</h2>
             <div class="entry">
                 <div class="entry-role">Formateur informatique bénévole</div>
