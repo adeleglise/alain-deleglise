@@ -295,6 +295,7 @@
         .print-only { display: none; }
 
         /* ---- PRINT ---- */
+        @page { margin: 0; }
         @media print {
             :root {
                 --paper: #fff;
@@ -302,7 +303,7 @@
                 --rule-light: #ddd;
             }
             body { font-size: 9px; line-height: 1.35; }
-            .page { max-width: 100%; padding: 0; }
+            .page { max-width: 100%; padding: 10mm 12mm; }
             header { padding: 0.3rem 0 0.5rem; text-align: center; border-bottom-width: 1px; }
             .name { font-size: 1.4rem; margin-bottom: 0; }
             .title { font-size: 0.8rem; margin-bottom: 0.3rem; }
@@ -321,7 +322,8 @@
             .skills-list { font-size: 0.7rem; }
             .cert-line { font-size: 0.7rem; padding: 0.15rem 0; }
             .cert-org { font-size: 0.65rem; }
-            .print-only { display: inline; }
+            .print-only { display: block !important; }
+            span.print-only { display: inline !important; }
             .print-hide { display: none; }
             footer, .print-btn { display: none; }
         }
@@ -378,11 +380,17 @@
                 <p class="entry-summary">Cabinet d'expertise en infrastructure cloud, SRE et DevOps. Conseil, migration cloud, Kubernetes multi-cloud, Infrastructure as Code et observabilité. Accompagnement d'entreprises de toutes tailles.</p>
             </div>
 
-            <div class="entry print-hide">
+            <div class="entry">
                 <div class="entry-role">Ingénieur Systèmes</div>
                 <div class="entry-date">Fév 2019 - Jan 2022</div>
                 <div class="entry-company">RadioKing (iCréo)</div>
                 <p class="entry-summary">MCO et MCS de l'infrastructure. Industrialisation des déploiements (Terraform, Puppet, Ansible, GitOps). Stack Prometheus/Grafana. Cluster ElasticSearch/Logstash. Mise en oeuvre de Kubernetes. Rédaction des documentations techniques (DAT, PRA/PCA).</p>
+            </div>
+
+            <div class="entry print-only" style="display:none;">
+                <div class="entry-role">Parcours antérieur</div>
+                <div class="entry-date">2002 - 2019</div>
+                <p class="entry-summary">Alter Way (Architecte Infrastructure / Avant-Vente, 7 ans), Ministère de la Défense (Administrateur Systèmes, 9 ans).</p>
             </div>
 
             <div class="entry print-hide">
