@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: alain-resume
+  description: "CV de Alain Deléglise"
+  tags:
+    - html
+  annotations:
+    github.com/project-slug: adeleglise/alain-deleglise
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/linguist: https://github.com/adeleglise/alain-deleglise
+spec:
+  type: website
+  lifecycle: production
+  owner: user:adeleglise
